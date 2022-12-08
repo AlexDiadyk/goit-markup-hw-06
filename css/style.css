@@ -232,9 +232,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   height: 12px;
 }
 
-
-
-
 /* основний зміст */
 
 /*секція рішення*/
@@ -305,7 +302,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 .button:focus,
 .button:hover {
 background-color: var(--color-accent-hover);
-
 }
 
 /* backdrop */
@@ -359,18 +355,14 @@ pointer-events: none;
   border-radius: 50%;
   color: var(--third-color-background);
   cursor: pointer;
-  transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close {
-  fill: #000000;
-}
-
 .close-button:hover,
 .close-button:focus {
-  color: var(--accent);
+  fill: var(--accent);
+  border: 1px solid var(--accent);
 }
 
 
@@ -1088,7 +1080,7 @@ background: var(--accent);
 }
 
 
-.input-post:hover
+.input-post:hover,
 .input-post:focus {
   border:  1px solid var(--accent);
 }
@@ -1102,8 +1094,6 @@ background: var(--accent);
   fill: currentColor;
   vertical-align: middle;
 }
-
-
 
 .button-footer{
 font-family: 'Roboto', sans-serif;
@@ -1124,6 +1114,11 @@ text-decoration: none;
 transition-property: background-color;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-footer:focus,
+.button-footer:hover {
+background-color: var(--color-accent-hover);
 }
 
 
