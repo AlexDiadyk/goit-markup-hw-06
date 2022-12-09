@@ -441,7 +441,7 @@
           <div class="form-field">
             <label for="name" class="form-label">Ім'я</label>
             <input type="text" id="name" class="form-input" />
-            <svg class="modal-icon" width="12" height="12">
+            <svg class="modal-icon" width="16" height="16">
               <use href="./images/icons.svg#icon-name-data"></use>
             </svg>
           </div>
@@ -449,7 +449,7 @@
           <div class="form-field">
             <label for="tel" class="form-label">Телефон</label>
             <input type="tel" id="tel" class="form-input" />
-            <svg class="modal-icon" width="13" height="13">
+            <svg class="modal-icon" width="16" height="16">
               <use href="./images/icons.svg#icon-Vector-phone"></use>
             </svg>
           </div>
@@ -457,7 +457,7 @@
           <div class="form-field">
             <label for="mail" class="form-label">Пошта</label>
             <input type="email" id="mail" class="form-input" />
-            <svg class="modal-icon" width="15" height="12">
+            <svg class="modal-icon" width="16" height="16">
               <use href="./images/icons.svg#icon-Vector-mail"></use>
             </svg>
           </div>
@@ -473,25 +473,14 @@
               placeholder="Введіть текст"
             ></textarea>
           </div>
-
-          <div class="policy-field">
-            <label class="label">
-              <input type="checkbox" name="agree" class="form-check">
-              <svg class="modal-icon" width="13" height="13">
-                <use href="./images/icons.svg#"></use>
-              </svg>
-              <a class="label-text-contract">Погоджуюсь з розсилкою та приймаю<a href="#" class="contract">
-                Умови договору
-              </a>
+          <div class="form-label-checkbox">
+            <input type="checkbox" name="checkbox" value="check" id="agree"/>
+            <label class="form-label check" for="agree">
+              Погоджуюся з розсилкою та приймаю<a class="contract">Умови договору</a>
             </label>
-          </div>
-        </form>
-        <div class="button-field">
-          <button class="button">
-            Відправити
-          </button>
         </div>
-
+        <button class="button form-button" type="submit">Відправити</button>
+        </form>
     </div>
       </div>
     </div>
