@@ -1,6 +1,6 @@
 :root {
---accent: #2196F3;
---primary-text-color: #212121;
+--accent: #4D5AE5;
+--primary-text-color: #2E2F42;
 --text-color-white: #FFFFFF;
 --text-color-gray: #757575;
 --color-accent-hover: #188ce8;
@@ -84,10 +84,11 @@ padding-bottom: 25px;
 margin-right: 93px;
 text-decoration: none;
 font-family: 'Raleway', sans-serif;
-font-size: 26px;
+font-size: 18px;
 line-height: 1.19;
 letter-spacing: 0.03em;
-color: var(--accent);
+color: #4D5AE5;
+text-transform: uppercase;
 }
 
 .logo-studio {color: var(--primary-text-color);}
