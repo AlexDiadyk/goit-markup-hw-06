@@ -62,7 +62,7 @@ margin-left: auto;
 margin-right: auto;
 padding-left: 15px;
 padding-right: 15px;
-width: 1440px;
+width: 1158px;
 }
 
 .list {
@@ -72,9 +72,7 @@ padding-left: 0;
 }
 
 
-
 /* HEADER */
-
 
 header {background: var(--main-background-color);
 }
@@ -93,11 +91,10 @@ font-weight: 500;
 letter-spacing: 0.02em;
 }
 
-
 /* LOGO */
 .logo {
 padding-top: 24px;
-padding-bottom: 24px;
+padding-bottom: 28px;
 margin-right: 76px;
 text-decoration: none;
 font-family: 'Raleway', sans-serif;
@@ -143,7 +140,7 @@ fill:var(--accent);
 .nav-studio.link.current::after,
 .nav-portfolio.link.current::after {
 position: absolute;
-bottom: -1px;
+bottom: -2px;
 right: 0px;
 content: "";
 width: 100%;
@@ -155,7 +152,7 @@ border-radius: 2px;
 .nav-studio {
 position: relative;
 padding-top: 24px;
-padding-bottom: 24px;
+padding-bottom: 28px;
 text-decoration: none;
 margin-right: 40px;
 font-weight: 500;
