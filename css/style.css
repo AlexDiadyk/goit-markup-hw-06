@@ -250,7 +250,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 /* MAIN CONTENT */
 
-/*секція рішення*/
+/* Hero */
 .hero {
 margin: 0 auto;
 text-align: center;
@@ -261,50 +261,48 @@ background-color: var(--second-background-color);
 background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bgimage-hero.jpg);
 background-repeat: no-repeat;
 background-position: center;
-max-width: 1600px;
+max-width: 1440px;
 height: 600px;
 }
 
 .section-order {
-max-width: 1600px;
+max-width: 1440px;
 margin-right: auto;
 margin-left: auto;
 }
 
 .order-container {
-margin-bottom: 0;
-padding: 200px 277px 195px 277px;
+padding: 188px 473px 188px 473px;
 color: var(--main-background-color);
 }
 
 .title-decision {
 margin-top: 0%;
-margin-bottom: 30px;
-font-weight: 900;
-font-size: 44px;
-line-height: 60px;
+margin-bottom: 48px;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+width: 494px;
+letter-spacing: 0.02em;
 text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
+margin: 0 auto 48px;
 color: var(--text-color-white);
-max-width: 696px;
-margin: 0 auto 30px;
 }
 
-/*кнопка*/
+/* Button */
 .button {
 font-family: 'Roboto', sans-serif;
 border:none;
 display: inline-block;
 border-radius: 4px;
-padding: 10px 32px;
-font-weight: 700;
+padding: 16px 32px;
+font-weight: 500;
 font-size: 16px;
-line-height: 1.88;
+line-height: 1.5;
 /* identical to box height, or 188% */
 border-radius: 4px solid transparent;
 min-width: 200px;
-letter-spacing: 0.06em;
+letter-spacing: 0.04em;
 text-align: center;
 cursor: pointer;
 color: var(--text-color-white);
@@ -353,7 +351,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
-
 .backdrop.is-hidden {
 visibility: hidden;
 opacity: 0;
@@ -381,8 +378,6 @@ pointer-events: none;
   border: 1px solid var(--accent);
 }
 
-
-/* Дані для заповнення */
 
 .modal-title {
   margin: 0px 0px 12px 0px;
@@ -496,13 +491,13 @@ pointer-events: none;
 }
 
 
-/* наші переваги */
+/* Advatages */
 
 .visually-hidden { position: absolute; white-space: nowrap; width: 0px; height: 0px; overflow: hidden; border: 0;}
 
 .advantages {
-  padding-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 120px;
+  margin-bottom: 120px;
   background: var(--main-background-color);
 }
 
@@ -566,8 +561,7 @@ color: var(--text-color-gray);
   margin-right: 30px;
 }
 
-/* чим займаємось */
-
+/* What are we doing */
 .work {
   margin-top: 0;
   margin-bottom: 94px;
@@ -584,7 +578,7 @@ color: var(--text-color-gray);
   font-size: 36px;
   line-height: 1.16;
   margin-top: 0px;
-  margin-bottom: 50px;
+  margin-bottom: 72px;
   text-align: center;
   letter-spacing: 0.03em;
 }
