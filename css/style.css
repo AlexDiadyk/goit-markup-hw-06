@@ -40,7 +40,6 @@ ol {
   padding-left: 0;
 }
 
-
 /* BODY */
 body {
 margin: 0;
@@ -60,8 +59,6 @@ padding-bottom: 120px;
 .container {
 margin-left: auto;
 margin-right: auto;
-padding-left: 15px;
-padding-right: 15px;
 width: 1158px;
 }
 
@@ -642,7 +639,6 @@ background: url(creative-artist-web-design-with-working-colour-selection-graphic
 .team {
 padding-top: 120px;
 padding-bottom: 120px;
-max-width: 1440px;
 background:var(--third-color-background);
 }
 
@@ -651,8 +647,9 @@ margin-bottom: 72px;
 text-align: center;
 font-weight: 700;
 font-size: 36px;
-line-height: 1.16;
-letter-spacing: 0.03em;
+line-height: 1.11;
+letter-spacing: 0.2em;
+text-transform: capitalize;
 color: var(--primary-text-color);
 }
 
@@ -660,7 +657,7 @@ color: var(--primary-text-color);
 display: flex;
 font-size: 16px;
 line-height: 1.19;
-gap: 30px;
+gap: 24px;
 text-align: center;
 background-color: var(--third-color-background);;
 }
@@ -672,7 +669,7 @@ flex-direction: column;
 flex-basis: calc((100% - 30% * 3) / 4);
 align-items: center;
 padding-bottom: 0px;
-width: 270px;
+width: 264px;
 box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
 border-radius: 4px;
 background-color: var(--main-background-color);
@@ -684,14 +681,14 @@ padding-top: 30px 10px;
 
 .demianenko {
 display: inline-block;
-margin-bottom: 30px;
+margin-bottom: 32px;
 background: url(4853.jpg);
 border-radius: 0px;
 }
 
 .repina {
 display: inline-block;
-margin-bottom: 30px;
+margin-bottom: 32px;
 font-weight: 500;
 background: url(5844.jpg);
 border-radius: 0px;
@@ -699,14 +696,14 @@ border-radius: 0px;
 
 .tarasov {
 display: inline-block;
-margin-bottom: 30px;
+margin-bottom: 32px;
 background: url(16166.jpg);
 border-radius: 0px;
 }
 
 .ermakov {
 display: inline-block;
-margin-bottom: 30px;
+margin-bottom: 32px;
 background: url(2968.jpg);
 border-radius: 0px;
 }
