@@ -6,7 +6,7 @@
 --color-accent-hover: #188ce8;
 --main-background-color: #FFFFFF;
 --second-background-color: #2F303A;
---third-color-background: #F5F4FA;
+--third-color-background: #F4F4FD;
 --portfolio-item-bg: #EEEEEE;
 --border-partners-company: #AFB1B8;
 }
@@ -507,7 +507,7 @@ pointer-events: none;
 
 .advantages .title {
   margin-top: 0px;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -540,8 +540,8 @@ color: var(--text-color-gray);
 
 .advantages-background{
   display: flex;
-  margin-bottom: 30px;
-  width: 270px;
+  margin-bottom: 8px;
+  width: 264px;
   height: 120px;
   background-color: var(--third-color-background);
   border-radius: 4px;
@@ -558,7 +558,8 @@ color: var(--text-color-gray);
 .item-benefits {
   text-align: left;
   /* padding: 0; */
-  margin-right: 30px;
+  margin-right: 24px;
+  width: 264px;
 }
 
 /* What are we doing */
@@ -576,11 +577,12 @@ color: var(--text-color-gray);
 .title-work {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.16;
+  line-height: 1.11;
   margin-top: 0px;
   margin-bottom: 72px;
   text-align: center;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .work .list {
@@ -588,8 +590,14 @@ color: var(--text-color-gray);
   justify-content: center;
 }
 
+.list-of-services {
+  width: 360px;
+  height: 300px;
+  border: 1px solid #E7E9FC;
+}
+
 .work .list > .item:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 24px;
 }
 
 .work .list > .item > img {
@@ -625,50 +633,21 @@ background: url(creative-artist-web-design-with-working-colour-selection-graphic
 .product-thumb {
   position: relative;
   display: block;
-  max-height: 294px;
-}
-
-.label-card {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-
-  bottom: 0;
-  width: 100%;
-  padding: 27px 0px;
-  text-align: center;
-  /* padding: 32px 64px;*/
-  /* opacity: 0; */
-  background: rgba(47, 48, 58, 0.8);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.142;
-  letter-spacing: 0.03em;
-}
-
-.label-text {
-margin: 0;
-bottom: 0;
-text-transform: uppercase;
-color: var(--text-color-white)
-
+  width: 360px;
+  max-height: 300px;
 }
 
 /*наша команда*/
 
 .team {
-padding-top: 94px;
-padding-bottom: 94px;
+padding-top: 120px;
+padding-bottom: 120px;
+max-width: 1440px;
 background:var(--third-color-background);
 }
 
-.team .our-team {
-  margin: 0;
-  margin-bottom: 50px;
-}
-
 .our-team {
+margin-bottom: 72px;
 text-align: center;
 font-weight: 700;
 font-size: 36px;
