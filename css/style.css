@@ -45,6 +45,7 @@ body {
 margin: 0;
 font-family:'Roboto', sans-serif;
 font-weight: 400;
+max-width: 1440px;
 font-size: 14px;
 letter-spacing: 0.03em;
 line-height: 1.14;
@@ -75,7 +76,7 @@ header {background: var(--main-background-color);
 }
 
 .header {
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid #E7E9FC;
 }
 
 .header-container {
@@ -165,7 +166,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 .nav-portfolio {
 position: relative;
 padding-top: 24px;
-padding-bottom: 24px;
+padding-bottom: 28px;
 margin-right: 40px;
 text-decoration: none;
 font-weight: 500;
@@ -180,7 +181,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 .nav-kontakty {
 padding-top: 24px;
-padding-bottom: 24px;
+padding-bottom: 28px;
 text-decoration: none;
 font-weight: 500;
 font-size: 16px;
@@ -194,13 +195,13 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 .contacts {
 padding-top: 24px;
-padding-bottom: 24px;
+padding-bottom: 28px;
 display: flex; align-items: center;}
 
 .mail-header{
 text-decoration: none;
 padding-top: 24px;
-padding-bottom: 24px;
+padding-bottom: 28px;
 margin-right: 40px;
 font-weight: 400;
 font-size: 16px;
@@ -212,7 +213,7 @@ color: var(--text-color-gray);
 .tel-header {
 text-decoration: none;
 padding-top: 24px;
-padding-bottom: 24px;
+padding-bottom: 28px;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -279,7 +280,6 @@ margin-bottom: 48px;
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
-width: 494px;
 letter-spacing: 0.02em;
 text-align: center;
 margin: 0 auto 48px;
