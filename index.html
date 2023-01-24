@@ -417,24 +417,31 @@
 
         <form class="form" autocomplete="off">
 
-          <div class="form-field">
             <label for="name" class="form-label">Name</label>
-            <input type="text" id="name" class="form-input" />
+            <div class="form-field">
+            <input type="text" name="user_name" class="form-input" 
+            required 
+            pattern="^[a-zA-Z а-яА-я]+"
+            />
             <svg class="modal-icon" width="12" height="12">
               <use href="./images/icons.svg#icon-name-data"></use>
             </svg>
           </div>
 
-          <div class="form-field">
             <label for="tel" class="form-label">Phone</label>
-            <input type="tel" id="tel" class="form-input" />
+            <div class="form-field">
+            <input type="tel" name="user_phone" class="form-input" 
+            required
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+            title="xxx-xxx-xx-xx"
+            />
             <svg class="modal-icon" width="13" height="13">
               <use href="./images/icons.svg#icon-Vector-phone"></use>
             </svg>
           </div>
 
-          <div class="form-field">
             <label for="mail" class="form-label">Mail</label>
+            <div class="form-field">
             <input type="email" id="mail" class="form-input" />
             <svg class="modal-icon" width="15" height="12">
               <use href="./images/icons.svg#icon-Vector-mail"></use>
@@ -445,17 +452,14 @@
             <label for="commet" class="form-label">Comment</label>
             <textarea
               name="text"
-              id="commet"
-              cols="30"
-              rows="10"
               class="form-textarea"
               placeholder="Text input"
             ></textarea>
           </div>
           <div class="form-label-checkbox">
-            <input type="checkbox" name="checkbox" value="check" id="agree"/>
+            <input type="checkbox" name="checkbox" id="agree"/>
             <label class="form-label check" for="agree">
-              I accept the terms and conditions of the<a class="contract">Privacy Policy</a>
+              I accept the terms and conditions of the&nbsp;&nbsp;<a class="contract">Privacy Policy</a>
             </label>
         </div>
         <button class="button form-button" type="submit">Send</button>

@@ -24,8 +24,8 @@ p,
 h1,
 h2,
 h3,
-h4,
-h5 {
+h4
+ {
   margin: 0;
 }
 
@@ -414,12 +414,10 @@ pointer-events: none;
   position: relative;
 }
 
-.form-field:not(:last-child) {
-  margin-bottom: 10px;
-}
 
 .modal-icon {
   position: absolute;
+  transform: translate(0, -50%);
   left: 19px;
   top: 50%;
   color: var(--primary-text-color);
@@ -494,7 +492,6 @@ pointer-events: none;
 
 .contract {
   text-decoration-skip-ink: none;
-  margin-left: 5px;
   font-size: 12px;
   line-height: 1.71;
   color: var(--accent);
