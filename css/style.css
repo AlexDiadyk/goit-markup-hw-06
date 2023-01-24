@@ -454,6 +454,11 @@ pointer-events: none;
 .form-textarea:focus {
   border: 1px solid #4D5AE5;
 }
+
+.form-textarea:hover {
+  border: 1px solid #4D5AE5;
+}
+
 .form-field:hover .modal-icon {
   fill: var(--accent);
 }
