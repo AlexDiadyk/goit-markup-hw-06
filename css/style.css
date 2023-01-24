@@ -8,7 +8,7 @@
 --second-background-color: #2F303A;
 --third-color-background: #F4F4FD;
 --portfolio-item-bg: #EEEEEE;
---border-partners-company: #AFB1B8;
+--border-partners-company: #8E8F99;
 }
 
 /* html {
@@ -117,9 +117,6 @@ color: #4D5AE5;
 text-transform: uppercase;
 }
 
-.logo-footer {
-  padding-bottom: 8px;
-}
 
 .logo-studio {color: var(--primary-text-color);}
 
@@ -363,7 +360,6 @@ transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
 .backdrop.is-hidden {
 visibility: hidden;
 opacity: 0;
@@ -381,7 +377,7 @@ pointer-events: none;
   width: 24px;
   height: 24px;
   border-radius: 50%;
-  color: var(--third-color-background);
+  color:#E7E9FC;
   cursor: pointer;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -389,7 +385,7 @@ pointer-events: none;
 
 .close-button:hover,
 .close-button:focus {
-  fill: var(--accent);
+  fill: #404BBF;
   border: 1px solid var(--accent);
 }
 
@@ -418,7 +414,6 @@ pointer-events: none;
   position: relative;
 }
 
-
 .modal-icon {
   position: absolute;
   transform: translate(0, -50%);
@@ -427,7 +422,6 @@ pointer-events: none;
   color: var(--primary-text-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 
 .form-label {
   margin-bottom: 4px;
@@ -452,7 +446,7 @@ pointer-events: none;
 .form-field:hover .form-textarea,
 .form-input:focus,
 .form-textarea:focus {
-  border: 1px solid var(--accent);
+  border: 1px solid #4D5AE5;
 }
 .form-field:hover .modal-icon {
   fill: var(--accent);
@@ -881,6 +875,16 @@ display: flex;
 align-items: baseline;
 }
 
+.logo-footer {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
+  color: #4D5AE5;
+  text-transform: uppercase;
+}
+
 .logo-studio-footer {
 color:var(--text-color-white);
 }
@@ -889,12 +893,9 @@ color:var(--text-color-white);
   font-weight: 400;
 font-size: 16px;
 line-height: 24px;
-/* or 150% */
 letter-spacing: 0.02em;
-/* CORNFLOWER */
 color: #E7E9FC;
 }
-
 
 .footer {
 display: flex;
@@ -910,7 +911,6 @@ margin-bottom: 16px;
 color: var(--text-color-white);
 font-weight: 500;
 font-size: 16px;
-/* identical to box height, or 150% */
 letter-spacing: 0.02em;
 line-height: 1.5;
 text-align: left;
@@ -935,9 +935,7 @@ footer .social.link:focus{
 background: var(--accent);
 }
 
-.item-social {
 
-}
 
 /* Форма підписки */
 .footer-content {
@@ -952,7 +950,6 @@ background: var(--accent);
   margin-bottom: 16px;
   line-height: 1.14;
 font-size: 16px;
-/* identical to box height, or 150% */
 letter-spacing: 0.02em;
   color: var(--text-color-white);
 }
@@ -1000,7 +997,7 @@ letter-spacing: 0.04em;
 text-align: center;
 cursor: pointer;
 color: var(--text-color-white);
-background: var(--accent);
+background: #4D5AE5;
 text-decoration: none;
 transition-property: background-color;
 display: flex;
@@ -1062,8 +1059,11 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 font-family: 'Roboto';
+background: #F4F4FD;
+border: 1px solid #E7E9FC;
+border-radius: 4px;
 color: #4D5AE5;
-transition-property: color, background-color, box-shadow;
+transition-property: color, box-shadow;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
