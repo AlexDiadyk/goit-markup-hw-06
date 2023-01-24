@@ -24,13 +24,19 @@
             <a class="logo" href="index.html">web<span class="logo-studio">studio</span>
             </a>
             <ul class="site-nav list">
-                <li><a class="nav-studio link current" href="./index.html">Studio</a></li>
-                <li><a class="nav-portfolio link" href="./portfolio.html">Portfolio</a></li>
-                <li><a class="nav-kontakty link" href="#">Contacts</a></li>
+                <li class="nav-contacts-header">
+                  <a class="nav-studio link current" href="./index.html">Studio</a>
+                </li>
+                <li class="nav-contacts-header">
+                  <a class="nav-portfolio link" href="./portfolio.html">Portfolio</a>
+                </li>
+                <li>
+                  <a class="nav-kontakty link" href="#">Contacts</a>
+                </li>
             </ul>
         </nav>
         <ul class="contacts list">
-            <li>
+            <li class="nav-contacts-header">
                 <a class="mail-header header-icon-link" rel="noopener noreferrer nofollow" href="info@devstudio.com">
                     <svg class="item-icon mail">
                         <use href="./images/icons.svg#icon-mail"></use>
@@ -92,7 +98,7 @@
                     <h3 class="title">Diligence</h3>
                     <p class="advantage-text">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
                 </li>
-                <li class="item-benefits">
+                <li class="item-benefits item-benefits-none">
                     <div class="advantages-background">
                         <svg class="advantages-icons" width="70" height="70">
                             <use href="./images/icons.svg#icon-astronaut"></use>
@@ -459,7 +465,7 @@
           <div class="form-label-checkbox">
             <input type="checkbox" name="checkbox" id="agree"/>
             <label class="form-label check" for="agree">
-              I accept the terms and conditions of the&nbsp;&nbsp;<a class="contract">Privacy Policy</a>
+              I accept the terms and conditions of the&nbsp;<a class="contract">Privacy Policy</a>
             </label>
         </div>
         <button class="button form-button" type="submit">Send</button>
